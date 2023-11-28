@@ -6,11 +6,7 @@
   animation: myanimation 20s infinite;
 }
 
-.formLogin {
-  padding-top: 10%;
-  padding-bottom: 10%;
-  display: flex;
-}
+
 
 @keyframes myanimation {
   0% {
