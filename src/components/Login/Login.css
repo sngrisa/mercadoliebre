@@ -1,45 +1,31 @@
 .background-login {
-    width: 100%;
-    height: 100%;
-    color: black;
-    font-weight: bold;
-    animation: myanimation 20s infinite !important;
+  width: 100%;
+  height: 100%;
+  color: black;
+  font-weight: bold;
+  animation: myanimation 20s infinite;
 }
 
 .formLogin {
-    padding-top: 10%;
-    padding-bottom: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  display: flex;
 }
 
 @keyframes myanimation {
-    0% {
-        background-image: url("./../../../src/assets/register5.webp");
-        background-repeat: no-repeat !important;
-        ;
-        background-size: cover;
-    }
-    25% {
-        background-image: url("./../../../src/assets/register1.webp");
-        background-repeat: no-repeat !important;
-        background-size: cover;
-    }
-    50% {
-        background-image: url("./../../../src/assets/register2.webp");
-        background-repeat: no-repeat !important;
-        ;
-        background-size: cover;
-    }
-    75% {
-        background-image: url("./../../../src/assets/register3.webp");
-        background-repeat: no-repeat !important;
-        ;
-        background-size: cover;
-    }
-    100% {
-        background-image: url("./../../../src/assets/register4.webp");
-        background-repeat: no-repeat !important;
-        ;
-        background-size: cover !important;
-        ;
-    }
+  0% {
+    background-image: url("./../../assets/register1.webp");
+  }
+  25% {
+    background-image: url("./../../assets/register2.webp");
+  }
+  50% {
+    background-image: url("./../../assets/register3.webp");
+  }
+  75% {
+    background-image: url("./../../assets/register4.webp");
+  }
+  100% {
+    background-image: url("./../../assets/register5.webp");
+  }
 }
