@@ -1,0 +1,15 @@
+.about-us-container {
+    background-color: whitesmoke !important;
+    border-radius: 2%;
+    box-shadow: 8px 9px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 8px 9px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 8px 9px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.background-cba {
+    background-image: url("./../../assets/register1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+}

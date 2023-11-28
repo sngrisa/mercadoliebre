@@ -1,0 +1,86 @@
+.dolar-box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 25px auto;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.banner {
+    display: flex;
+    animation: moveBanner 15s linear infinite;
+    min-width: 400%;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+
+.dolar-item {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    flex: 0 0 6%;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.dolar-item:hover {
+    background-color: #e0e0e0;
+}
+
+.dolar-name {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.dolar-price {
+    color: #007bff;
+    font-size: 16px;
+}
+
+@keyframes moveBanner {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-31.53%);
+    }
+}
+
+@media (max-width: 768px) {
+    .banner {
+        animation: moveBanner2 15s linear infinite;
+        min-width: 600%;
+    }
+    .dolar-item {
+        flex: 0 0 16%;
+        /
+    }
+    .dolar-item:hover {
+        background-color: #e0e0e0;
+    }
+    .dolar-name {
+        color: #333;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .dolar-price {
+        color: #007bff;
+        font-size: 16px;
+    }
+    @keyframes moveBanner2 {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-45%);
+        }
+    }
+}

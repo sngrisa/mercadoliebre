@@ -1,0 +1,25 @@
+.col {
+    margin-bottom: 7%;
+}
+
+.card {
+    font-family: sans-serif;
+    height: 550px;
+    border-radius: 2%;
+    box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.card-img-top {
+    width: 20vw !important;
+    height: 15vw !important;
+    object-fit: cover;
+}
+
+@media (max-width: 600px) {
+    .card-img-top {
+        width: 100% !important;
+        height: 45vw !important;
+    }
+}
