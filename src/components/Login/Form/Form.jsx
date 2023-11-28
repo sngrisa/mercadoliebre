@@ -86,6 +86,12 @@ const Form = ({ Users }) => {
               />
               <input type="submit" className="fadeIn fourth" value="Ingresar" />
             </form>
+            <div className="googleSingIn">
+                <button className="btnGoogleSingIn underlineHover" onClick={logGoogleUser}>
+                  <i className="bi bi-google"></i>
+                  Ingresar con Google
+                </button>
+              </div>
             <div id="formFooter">
               <h6>
                 <b>Aun no se ha registrado?</b>
@@ -95,12 +101,6 @@ const Form = ({ Users }) => {
                 Cree una cuenta ahora y gratis
               </a>
             </div>
-          </div>
-          <div className="googleSingIn">
-            <button className="btnGoogleSingIn" onClick={logGoogleUser}>
-              <i className="bi bi-google"></i>
-              Sign In With Google
-            </button>
           </div>
         </div>
       </div>

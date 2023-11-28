@@ -267,15 +267,15 @@ input:placeholder {
   margin-bottom: 5%;
 }
 
-.googleSingIn {
-  padding: 25px;
-}
+
 
 .btnGoogleSingIn {
   padding: 15px;
   background: white;
   z-index: 999;
+  border-radius: 10px;
 }
+
 .bi-google {
   margin-right: 5px;
 }
