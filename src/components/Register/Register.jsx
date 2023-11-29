@@ -77,9 +77,19 @@ const Register = () => {
   return (
     <>
       <div className="background-register">
+        <div className="container">
           <div className="sing-up-container pt-5 pb-5">
-            <h2>No tienes una cuenta aún</h2>
-            <span>Registrate con tu Email</span>
+            <div className="pt-1 pb-2">
+              <div className="form-icon mt-5">
+                <span>
+                  <i className="bi bi-person-circle"></i>
+                </span>
+              </div>
+              <hr></hr>
+              <div className="mt-3 alert alert-dark border">
+                <span className="text-dark text-header"><i className="bi bi-info-circle-fill"></i> No tenes una cuenta, registrate con tu Email a continuación</span>
+              </div>
+            </div>
             <form
               onSubmit={(event) => {
                 handleSubmit(event);
@@ -120,11 +130,19 @@ const Register = () => {
                 value={confirmPassword}
                 required
               ></FormInput>
-              <button className="btnCrearCuenta" type="submit">
-                Crear Cuenta
+              <div className="row mt-3">
+                <div className="col-12 col-sm-12 col-md-12 col-lg-6 mb-3">
+                <button className="btnCrearCuenta btn btn-block" type="submit">
+              <i className="bi bi-person-fill-add"></i> Crear Cuenta
               </button>
+                </div>
+                <div className="col-12 col-sm-12 col-md-12 col-lg-6">
+                <a href="/login" className="btn btn-danger btn-block"><i class="bi bi-backspace-fill"></i> Ir al login</a>
+                </div>
+              </div>
             </form>
           </div>
+        </div>
       </div>
     </>
   );

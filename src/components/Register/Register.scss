@@ -6,6 +6,23 @@
     animation: myanimation 20s infinite;
 }
 
+.sing-up-container{
+    padding-top: 10% !important;
+    padding-bottom: 10% !important;
+    width: 65%;
+    margin: auto;
+}
+
+.btnCrearCuenta{
+    background-color: orange !important;
+    color: whitesmoke !important;
+}
+
+.btnCrearCuenta:hover{
+    background-color: black !important;
+    color: whitesmoke !important;
+}
+
 @keyframes myanimation {
     0% {
         background-image: url("./../../assets/register1.webp");

@@ -8,17 +8,17 @@ const DetailsProduct = () => {
 
     let [product, setProduct] = useState({});
     let { id } = useParams();
+    let stock = Number(Math.floor(Math.random()*33)+1);
 
 
     useEffect(() => {
         getProductById(id).then((producT) => setProduct(producT));
-        console.log(product);
     }, [])
 
     return (
         <>
             <div className="container mb-5">
-                <CardProduct product={product}/>
+                <CardProduct product={product} stock={stock}/>
             </div>
         </>
     )

@@ -25,3 +25,33 @@
     background-image: url("./../../assets/register5.webp");
   }
 }
+
+.background-login {
+  width: 100%;
+  height: 100%;
+  color: black;
+  font-weight: bold;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  animation: myanimation 20s infinite;
+}
+
+
+
+@keyframes myanimation {
+  0% {
+    background-image: url("./../../assets/register1.webp");
+  }
+  25% {
+    background-image: url("./../../assets/register2.webp");
+  }
+  50% {
+    background-image: url("./../../assets/register3.webp");
+  }
+  75% {
+    background-image: url("./../../assets/register4.webp");
+  }
+  100% {
+    background-image: url("./../../assets/register5.webp");
+  }
+}
